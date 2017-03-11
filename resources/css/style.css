@@ -1,0 +1,34 @@
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+.logo {
+  display: flex;
+  padding: 5% 0; /*this worked but seemed to add a weird margin to the whole .header div. */
+  color: MediumAquamarine;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 300px;
+  color: black;
+}
+
+.navigation span {
+
+}
+
+.logo p {
+  padding: 10% 0;
+}
