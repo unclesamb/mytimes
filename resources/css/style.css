@@ -13,8 +13,9 @@
 
 .logo {
   display: flex;
-  padding: 5% 0; /*this worked but seemed to add a weird margin to the whole .header div. */
+  padding: 2% 0;
   color: MediumAquamarine;
+  width: 150px;
 }
 
 .navigation {
@@ -29,6 +30,40 @@
 
 }
 
+.navigation a {
+  color: black;
+}
+
 .logo p {
-  padding: 10% 0;
+  padding: 4% 0;
+  margin-left: 10px;
+}
+
+/* Main Content */
+
+div.content {
+  display:flex;
+}
+
+div.column {
+  display: flex;
+}
+
+.content div {
+  border: 1px solid black;
+}
+
+.column.large {
+  width: 630px;
+  flex-flow: column wrap;
+}
+
+.column.medium {
+  width: 300px;
+  flex-flow: column wrap;
+}
+
+.column.small {
+  width: 240px;
+  flex-flow: column wrap;
 }
