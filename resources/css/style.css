@@ -7,15 +7,14 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  margin-left: 30px;
-  margin-right: 50px;
+  margin: 30px 50px 30px 30px;
 }
 
 .logo {
   display: flex;
-  padding: 2% 0;
+  /*padding: 2% 0;*/
   color: MediumAquamarine;
-  width: 150px;
+  width: 200px;
 }
 
 .navigation {
@@ -148,4 +147,40 @@ div.column {
 
 #cats {
   background-image: url("../images/img-story-1.png");
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  padding: 50px 0px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-logo {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-nav p {
+  padding: 0px 15px;
+  text-align: center;
+}
+
+.footer-nav a {
+  color: black;
 }
