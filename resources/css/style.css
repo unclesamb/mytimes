@@ -43,14 +43,16 @@
 
 div.content {
   display:flex;
+  align-items: flex-start;
 }
+
+/*.content div {
+  border: 1px solid black;
+}*/
 
 div.column {
   display: flex;
-}
-
-.content div {
-  border: 1px solid black;
+  margin: 0px 5px;
 }
 
 .column.large {
@@ -66,4 +68,67 @@ div.column {
 .column.small {
   width: 240px;
   flex-flow: column wrap;
+}
+
+.hero-article {
+  width: 630px;
+}
+
+.sub-article-container {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-headline-container {
+  width: 630px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-headline {
+  display: flex;
+}
+
+.image-headline-container .image-headline {
+  width: 300px;
+  height: 300px;
+}
+
+.image-headline h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.sub-article-container .sub-article {
+  width: 300px;
+  height: 250px;
+}
+
+.content p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-headline.main-headline h2 {
+  font-size: 40px;
+}
+
+#phish {
+  background-image: url("../images/img-story-main.png");
+}
+
+#earth {
+  background-image: url("../images/img-story-2.png");
+}
+
+#cameras {
+  background-image: url("../images/img-story-3.png");
+}
+
+#cats {
+  background-image: url("../images/img-story-1.png");
 }
